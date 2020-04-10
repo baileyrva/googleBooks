@@ -20,3 +20,7 @@ a:hover {
     font-size: 25px; 
 }
 
+html * {
+    text-align: center;
+}
+

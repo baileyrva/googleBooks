@@ -10,7 +10,8 @@ class Search extends React.Component {
   };
 
   componentDidMount() {
-    this.searchBook();
+    let firstBook = "IT"
+    this.searchBook(firstBook);
   }
 
   makeBook = (bookData) => {

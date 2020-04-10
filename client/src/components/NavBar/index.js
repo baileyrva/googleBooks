@@ -9,8 +9,7 @@ function Navbar() {
         <Link className="navbar-brand" to="/">
           Google Books
         </Link>
-        <ul className="navbar-nav">
-          <li className="nav-item">
+        <p className="navbar-nav">
             <Link
               to="/search"
               className={
@@ -21,8 +20,7 @@ function Navbar() {
             >
               Search
             </Link>
-          </li>
-        </ul>
+            </p>
       </div>
     </nav>
   );
