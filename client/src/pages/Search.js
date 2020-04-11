@@ -32,7 +32,7 @@ class Search extends React.Component {
           books: res.data.items.map((bookData) => this.makeBook(bookData)),
         })
       )
-      .catch((err) => console.error(err));
+      .catch((err) => console.log(err));
   };
 
   handleInputChange = (event) => {

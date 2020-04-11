@@ -17,11 +17,11 @@ class Results extends Component {
         if (this.state.savedBooks.map(book => book._id).includes(book._id)) {
             API.deleteBook(book._id)
                 .then(deletedBook => this.setState({ savedBooks: this.state.savedBooks.filter(book => book._id !== deletedBook._id) }))
-                .catch(err => console.error(err));
+                .catch(err => console.log(err));
         } else {
             API.saveBook(book)
                 .then(savedBook => this.setState({ savedBooks: this.state.savedBooks.concat([savedBook]) }))
-                .catch(err => console.error(err));
+                .catch(err => console.log(err));
         }
     }
 
