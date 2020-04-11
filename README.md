@@ -9,13 +9,13 @@ The application is deployed using github and heroku. The main page can be opened
 ## User Story
 **As an** avid reader\
 **I want** to be able to view multiple books\
-**So that** I can choose my next read easily\
+**So that** I can choose my next read easily.
 
 ## Built With
 [React.js](https://reactjs.org/docs/getting-started.html) -Backend development language\
 [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) -Page rendering template\
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) -Frontend development language and server usage\
-[Heroku](https://devcenter.heroku.com/categories/reference) -App deployment using github master branch\
+[Heroku](https://devcenter.heroku.com/categories/reference) -App deployment using github master branch
 
 ## Credits
 
